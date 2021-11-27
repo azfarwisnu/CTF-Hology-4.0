@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  main:
+    build: .
+    restart: always
+    ports:
+      - "6661:8000"
+    network_mode: bridge
